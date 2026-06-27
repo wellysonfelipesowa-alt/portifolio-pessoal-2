@@ -31,16 +31,7 @@ header{
     padding: 1rem 2rem 0 2rem;
 }
 
-.menu-toggle{
-    display: none;
-    background: transparent;
-    border: 1px solid #2ecc71;
-    color: #2ecc71;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 1.1rem;
-}
+
 
 button{
     color: #2ecc71;
@@ -97,39 +88,7 @@ button:hover{
     margin-top: 15px;
 }
 
-.mobile-menu {
-    display: none;
-}
 
-.mobile-menu.active {
-    display: flex;
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.75);
-    z-index: 1000;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
-
-.mobile-menu nav {
-    background: #1f1f1f;
-    width: min(90vw, 320px);
-    border-radius: 16px;
-    padding: 1.5rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
-}
-
-.mobile-menu ul {
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-}
-
-.mobile-menu a {
-    color: #fff;
-    font-size: 1rem;
-}
 
 @media screen and (max-width: 1024px) {
     .container-text{
@@ -166,9 +125,7 @@ button:hover{
 }
 
 @media screen and (max-width: 600px){
-    .menu-toggle{
-        display: inline-flex;
-    }
+    
 
     .container-text{
         padding: 100px 18px 0;
